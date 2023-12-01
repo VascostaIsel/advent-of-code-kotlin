@@ -1,4 +1,4 @@
-Welcome to the Advent of Code[^aoc] Kotlin project created by [vascostaisel][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+Welcome to the Advent of Code Kotlin project created by [vascostaisel][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
 
 In this repository, vascostaisel is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
 
