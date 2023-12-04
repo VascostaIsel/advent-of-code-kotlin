@@ -5,7 +5,6 @@ import readInput
 
 fun main() {
     fun part1(input: List<String>): Int {
-
         return input.sumOf { line ->
             var nOfMatches = 0
             val card = line.split(": ")[1].split("| ")
@@ -24,10 +23,10 @@ fun main() {
         cardsCopies.indices.forEach { cardIdx ->
             val card = input[cardIdx]
             nOfCards += cardsCopies[cardIdx] // add the number of copies of the current card
-            val cardNumbers = card.split(": ")[1].split("| ")[1].split(" ").filter { it.isNotBlank() }.map { it.toInt() }
-            val cardMatches = card.split(": ")[1].split("| ")[0].split(" ").filter { it.isNotBlank() }.map { it.toInt() }
+            val winningNumbers = card.split(": ")[1].split("| ")[0].split(" ").filter { it.isNotBlank() }.map { it.toInt() }
+            val numbers = card.split(": ")[1].split("| ")[1].split(" ").filter { it.isNotBlank() }.map { it.toInt() }
             var nOfMatches = 0
-            cardNumbers.forEach { if (cardMatches.contains(it)) nOfMatches++ }
+            numbers.forEach { if (winningNumbers.contains(it)) nOfMatches++ }
             // loop through the next cards and add the number of copies of the current card to them
             for (nextCard in (cardIdx + 1) .. (cardIdx + nOfMatches))
                 cardsCopies[nextCard] = cardsCopies[nextCard] + cardsCopies[cardIdx]
