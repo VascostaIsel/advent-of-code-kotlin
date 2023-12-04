@@ -2,6 +2,8 @@
 
 My algorithms for the [Advent Of Code 2023](https://adventofcode.com/2023) coding puzzles with [Kotlin](https://www.kotlinlang.org/)
 
+<img src="header.png" height="200px"/>
+
 ## Overview
 | Day | Name                                                  | Stars |
 | --- |-------------------------------------------------------| ----- |

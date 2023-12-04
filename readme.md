@@ -1,11 +1,27 @@
-Welcome to the Advent of Code Kotlin project created by [vascostaisel][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+# Advent of Code <img src="https://skillicons.dev/icons?i=kotlin"/>
 
-In this repository, vascostaisel is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+Welcome to the Advent of Code Kotlin project created by [vascostaisel][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
 
 [^aoc]:
 [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
 Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-five days.
-You can solve the puzzle and provide an answer using the language of your choice.
+
+## Statistics
+| Year | Stars |
+| ---- |-------|
+| 2015 | 0 ⭐   |
+| 2016 | 0 ⭐   |
+| 2017 | 0 ⭐   |
+| 2018 | 0 ⭐   | 
+| 2019 | 0 ⭐   |
+| 2020 | 0 ⭐   |
+| 2021 | 0 ⭐   |
+| 2022 | 0 ⭐   |
+| 2023 | 4 ⭐   |
+
+Total Stars: 4 ⭐
+
+<img src="./advent_of_code.png">
 
 [aoc]: https://adventofcode.com
 [docs]: https://kotlinlang.org/docs/home.html
